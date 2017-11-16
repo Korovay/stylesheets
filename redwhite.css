@@ -170,14 +170,6 @@ a:hover {
 * html #userinfo {
 	overflow-x: hidden;
 }
-#menu {
-	display: inline;
-	float: left;
-	margin-right: 0;
-}
-* html #menu {
-	overflow-x: hidden;
-}
 #searchbars {
 	display: inline;
 	float: left;
