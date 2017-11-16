@@ -1397,3 +1397,453 @@ ul.thin li { margin:0px 0px; padding:0px; }
 	text-decoration: none;
 }
 
+#searchbars {
+	background: #2e2e2e;
+	text-align: center;
+	height: 29px;
+	position: absolute;
+	top: 142px;
+	width: 85%;
+	min-width: 740px;
+}
+
+#searchbars ul {
+	position: relative;
+	margin: 0 auto;
+}
+
+#searchbars ul li {
+	margin: 0px;
+	padding: 1px 0 1px 0;
+	display: inline;
+	background: url('images/header-pattern.png');
+	position: relative;
+}
+
+#searchbars form {
+	display: inline;
+}
+
+#searchbars input {
+	border-top: none;
+	border-bottom: none;
+	border-right: none;
+	border-left: 1px solid #2e2e2e;
+	font-size: 10px;
+	color: #777777;
+	margin: 4px 0 2px 0;
+	text-align: center;
+	text-transform: uppercase;
+	width: 10%;
+	background: none;
+	position: relative;
+}
+
+#searchbars input:hover, #searchbars input:focus{
+	color: #999;
+}
+
+#searchbars ul li ul {
+	display: block;
+	position: absolute;
+	top: 1em;
+	left: 0;
+	z-index: 1000;
+	background: none;
+	width: 12em;
+	margin-top: 12px;
+}
+
+#searchbars  li:nth-child(2) li{
+	background: #151515;
+	width: 120px;
+}
+
+#searchbars ul li ul li {
+	margin: 0 0 0 0;
+	padding: 5px;
+	display: block;
+	width: 100%;
+	cursor: pointer;
+	text-align: left;
+}
+
+#searchbars ul li ul li.highlight {
+	background: #0081c0;
+	text-shadow: black 2px 2px 2px;
+}
+
+#searchbars li:first-child {
+	background-image: url('images/searchbar-left.png'); 
+}
+
+#searchbars li:last-child {
+	background-image: url('images/searchbar-right.png');
+	background-position: right;
+} 
+
+li.searchbars {
+	font-size: 11px;
+	float: left;
+	margin: 16px 0px 12px 25px;
+}
+
+#newmessagenumber {
+	text-decoration: blink;
+}
+
+#radiobar {
+	position: absolute;
+	top: 170px;
+	text-align: center;
+	background: #505050;
+	font-size: 14px;
+	width: 85%;
+	height: 21px;
+	padding-top: 4px;
+	min-width: 740px;
+	color: white;
+}
+
+#radiobar a {
+	color: white;
+}
+
+#live {
+	font-weight: bold;
+	color: red;
+}
+
+
+/* IE doesn't appear to like a simple display:none in our header. Random things start fucking up pretty badly. */
+.hidden {
+	position: absolute;
+	left: -10000px;
+}
+
+#recommendations {
+	padding:3px 10px;
+	background: url('images/bg2e.png');
+	margin-bottom:5px;
+}
+/*
+#_Recommendation {
+	height:143px;
+	overflow:scroll;
+	overflow-y:auto;
+	overflow-x:hidden;
+}*/
+
+.reseed_table td {
+	padding:3px 10px;
+}
+
+#r0, #r1, #r2, #r3, #r4, #r5, #r6, #r7, #r8, #r9, #r10, #r11, #r12, #r13, #r14, #r15 {
+	background: url('images/bg2e.png');
+}
+
+#r0:hover, #r1:hover, #r2:hover, #r3:hover, #r4:hover, #r5:hover, #r6:hover, #r7:hover, #r8:hover, #r9:hover, #r10:hover, #r11:hover, #r12:hover, #r13:hover, #r14:hover, #r15:hover {
+	background: url('images/bgblue.png');
+}
+
+input.hidden {
+	position: absolute;
+	display: none;
+}
+
+/* Layout (Any page) */
+.thin {
+	margin-left:auto;
+	margin-right:auto;
+	padding: 10px;
+}
+
+div.linkbox {
+	color: #555;
+	text-align:center;
+	padding: 5px;
+}
+
+.center {
+	text-align: center;
+}
+
+.right {
+	text-align: right;	
+}
+
+.min_padding {
+	padding: 0px;
+	margin: 0px 0px;
+}
+
+p.min_padding {
+	margin: 2px 0px;
+}
+
+.pad {
+	padding: 0 0 1px 2px;
+	margin-bottom: 20px;
+}
+
+.vertical_space {
+	margin-bottom: 10px;
+}
+
+.box {
+	font-size: 8pt;
+	color: white;
+	padding: 3px;
+}
+
+.staffnotes_box {
+	margin: 10px 0 10px 0;
+	background: url('images/bg2e.png');
+	padding: 5px;
+}
+
+.box a:hover {
+	color: #008fcf;
+}
+
+.box.pad {
+	background: url('images/bg2e.png');
+	overflow: hidden;
+	padding: 5px;
+}
+
+.pad h3, .pad h4, .padbox h3, .padbox h4 {
+	margin-top: 8px;
+	padding-top: 0px;
+}
+
+.index_sidebar {
+	float: right;
+	width: 250px;
+	height: 100%;
+}
+
+.index_sidebar .box {
+	margin: 0px 0px 10px 5px;
+}
+
+.index_sidebar2 {
+	float: right;
+	width: 250px;
+	height: 100%;
+	border-right: 1px solid #505050;
+}
+
+.index_sidebar2 .box {
+	margin: 0px 5px 10px 0px;
+}
+
+.sidebar {
+	float: right;
+	width: 250px;
+	height: 100%;
+}
+
+.sidebar .box {
+	margin: 0px 0px 10px 5px;
+}
+
+#sbseparator1 {
+	margin: 5px;
+	padding: 3px 8px;
+}
+
+#sbseparator2 {
+	margin: 5px;
+	padding: 3px 8px;
+}
+
+.head {
+	padding: 0;
+	font-size: 10px;
+	color: white; 
+	border-bottom: 1px solid #505050;
+	vertical-align: text-bottom;
+	margin: 0;
+}
+
+.head strong {
+	font-weight: normal;
+	color: #0081c0;
+	text-shadow: #000 2px 2px 2px;
+	font-size: 16px;
+	margin-right: 5px;
+}
+
+.body {
+	padding: 3px 10px 10px 10px;
+}
+
+.main_column {
+	margin: 0px 260px 0 0px;
+	padding: 0 15px 0 0; 
+	border-right: 1px solid #505050;
+}
+
+.main_column .box, .main_column table {
+	margin-bottom: 10px;
+}
+
+.index_main_column {
+	margin: 0px 510px 0 0px;
+	padding: 0 15px 0 0; 
+	border-right: 1px solid #505050;
+}
+
+.index_main_column .box, .index_main_column table {
+	margin-bottom: 10px;
+}
+
+.owners {
+	padding: 0px;
+	font-style: italic;
+	font-weight:normal;
+}
+
+.tags {
+	padding: 0px 0px 0px 0px;
+	font-style: italic;
+	font-weight: normal;
+}
+
+.tags a {
+	color: #C9C9C9;
+}
+
+.tags a:hover {
+	color: #008fcf;
+	text-decoration: underline;
+}
+
+.noborder {
+	border: none;
+}
+
+ul.nobullet {
+	list-style-type: none;
+}
+
+h3 {
+	color: #0081c0;
+	text-shadow: #000 2px 2px 2px;
+	margin-top: 10px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+tr {
+	background: url('images/bg2e.png');
+}
+
+tr.rowa, .box table tr.rowa {
+	background: url('images/bg50.png');
+}
+
+.box table tr.rowb {
+	background: url('images/bg2e.png');
+}
+
+tr.rowa td { border-right: 1px solid #505050; }
+tr.rowa td:last-child { border: none; }
+tr.rowb td { border-right: 1px solid #505050; }
+tr.rowb td:last-child { border: none; }
+
+
+td, th {
+	border: none;
+	color: white;
+	padding: 5px;
+	text-align: left;
+}
+
+.tdrowa{
+	background: url('images/bg50.png');
+}
+
+.tdrowb {
+	background: url('images/bg2e.png');
+}
+
+.colhead {
+	font-weight: bold;
+	color: white;
+	border: none;
+	border-bottom: 1px solid #505050;
+	background: none;
+}
+
+td.colhead, .colhead td, .colhead th {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.colhead .sign, .colhead_dark .sign {
+	padding: 0px 8px 0px 8px;
+	font-size: 12pt;
+	font-weight: bold;
+	vertical-align: middle;
+}
+
+.colhead_dark {
+	border: none;
+	border-bottom: 1px solid #505050;
+	background: none;
+}
+
+.edition_info {
+	border-bottom: 1px solid #505050;
+	background: url('images/bg2e.png');
+}
+
+td.label {
+	font-weight: bold;
+	text-align: right;
+	width: 180px;
+}
+
+table.slice {
+	margin-top: -1px;
+}
+
+.error_message {
+	border-top: 1px solid #555555;
+	padding: 3px 0px 3px 0px;
+	background-color: #333333;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+
+.save_message {
+	border-top: 1px solid #C1965C;
+	padding: 3px 0px 3px 0px;
+	background-color: #F4E649;
+	text-align: center;
+	color: #492802;
+	font-weight: bold;
+}
+
+#upload_notice {
+	background-color:#333;
+	border: 1px #4a4a4a dashed;
+}
+
+#upload_notice td {
+	text-align: center;
+}
+
+.elem_error {
+	border: 3px solid #B00D0D;
+}
+
+.hide {
+	display:none;	
+}
