@@ -980,3 +980,218 @@ div[class~=tooltipster-base] {
 /*	font-weight: bold;*/
 	margin-left: 140px;
 }
+#menu ul {
+	position: relative;
+	z-index: 1;
+}
+
+#menu ul li {
+	margin: 0px;
+	display: inline-block;
+/*	margin-top: 0.8em;*/
+}
+
+#menu ul li a {
+	padding: 0px 4px 0px 4px;
+}
+
+#menu ul li a:first-child {
+	padding: 0px 4px 0px 0px;
+}
+
+#menu ul li a:hover {
+	color: #FFF;
+}
+
+#menu ul li:last-child a {
+	color: #DBCD91;
+	margin-right: 60px;
+}
+
+#menu ul li:nth-child(5) a {
+	color: #ff4d4d;
+}
+
+#menu ul li a:active {
+	outline: none;
+}
+
+#submenu a:after {
+	content: " /";
+}
+	
+#submenu {
+	text-align: left;
+	font-size: 8pt;
+/*	position: absolute;
+	left: 16.4%;
+	top: 84px;*/
+/*	letter-spacing: 0.05em;*/
+	text-transform: uppercase;
+	margin-left: 140px;
+}
+
+#submenu ul {
+	position: relative;
+	z-index: 1;
+}
+
+#submenu ul li {
+	margin: 0px;
+	display: inline-block;
+/*	margin-top: 0.8em;*/
+}
+
+#submenu ul li a:first-child {
+	padding: 0px 4px 1.1em 0px;
+}
+
+#submenu ul li a {
+	padding: 0px 5px 1.1em 5px;
+	color: #777;
+}
+
+#submenu ul li a:hover {
+	color: #0081c0;
+}
+
+#submenu ul li a:active {
+	outline: none;
+}
+
+#freefeed {
+/*	background: url('symbols/freefeed.png');*/
+	position: absolute;
+	height: 40px;
+	width: 40px;
+	top: 30px;
+	left: 30px;
+/*	padding-left: 10px;
+	display: inline-block;*/
+}
+
+/* Stuff between header and content */
+
+#ratiowatch {
+	position: absolute;
+	width: 100%;
+	top: 105px;
+	left: 0px;
+	text-align:center;
+	color: #EE962A;
+	font-weight:bold;
+	font-size: 12px;
+}
+
+#ratiowatch a {
+	color: #EE962A;
+}
+
+#ratiowatch a:hover {
+	color: #0081C0;
+}
+
+#trackerdown {
+	position: absolute;
+	width: 100%;
+	top: 125px;
+	left: 0px;
+	text-align: center;
+	color: #DC143C;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+#invite_reminder span {
+	background: url('symbols/invites_hover.png') no-repeat center center;
+	z-index: 3;
+	height: 16px;
+	width: 22px;
+	margin: -2px 0px -2px 0px;
+	display: inline-block;
+}
+
+#invite_reminder {
+	position: absolute;
+	width: 100%;
+	top: 115px;
+	left: 0px;
+	text-align:center;
+	color: #DC143C;
+	font-weight: normal;
+	font-size: 12px;
+}
+
+/* Modbar  and Alertbar */
+.modbar {
+	background-color: transparent;
+	text-align: right;
+	color: white;
+	font-weight: bold;
+	position: absolute;
+	top: 44px;
+	right: 7.5%;
+	z-index: 1;
+}
+
+.modbar a {
+	color: white;
+	text-decoration: none;
+	padding: 0px;
+}
+
+.modbar a:hover {
+	color: #0081C0;
+	text-decoration: none;
+	text-shadow: black 2px 2px 2px;
+}
+
+.alertbar {
+	background-color: transparent;
+	text-align: right;
+	color: white;
+	font-weight: bold;
+	position: absolute;
+	top: 43px;
+	right: 7.5%;
+	z-index: 1;
+}
+
+.alertbar a {
+	color: white;
+	text-decoration: none;
+	padding: 0px;
+	margin-left: -7px;
+}
+
+.alertbar a:hover {
+	color: #0081C0;
+	text-decoration: none;
+	text-shadow: black 2px 2px 2px;
+}
+
+.alertbar img {
+	width: 24px;
+	height: 24px;
+	vertical-align: top;
+}
+
+.alertbar span {
+	position: relative;
+	left: 25px;
+	bottom: 2px;
+}
+
+.blend {
+	margin-top: 47px;
+	color: #333;
+}
+
+.blend a {
+	color: #505050;
+}
+
+.blend a:hover {
+	color: #008fcf;
+	text-decoration: none;
+}
