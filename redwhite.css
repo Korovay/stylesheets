@@ -235,24 +235,6 @@ a:hover {
 	display: inline;
 	margin-left: 10px;
 }
-#userinfo_minor {
-	width: 360px;
-}
-#userinfo_minor li {
-	float: left;
-	width: 160px;
-}
-#userinfo_major,#userinfo_minor {
-	padding-left: 60px;
-	border-left: 1px solid #ddd;
-}
-#userinfo_stats {
-	font-size: 10px;
-	position: absolute;
-	right: 0;
-	text-align: right;
-	top: 0;
-}
 #menu {
 	right: 0;
 	position: absolute;
