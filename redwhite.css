@@ -931,7 +931,7 @@ div[class~=tooltipster-base] {
 #logo {
 	width: 126px;
 	height: 60px;
-	background: url('images/logo.png') no-repeat center center;
+	background: url('https://www.deepbassnine.com/static/styles/goatpower/images/logo.png') no-repeat center center;
 	float: left;
 	margin: 20px 10px 0 0;
 }
