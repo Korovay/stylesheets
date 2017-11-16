@@ -156,20 +156,6 @@ a:hover {
 	height: 70px;
 	display: block;
 }
-#userinfo {
-	display: inline;
-	float: left;
-	margin-right: 0;
-	width: 950px;
-	font-size: 11px;
-	float: none;
-	position: absolute;
-	left: 0;
-	top: 10px;
-}
-* html #userinfo {
-	overflow-x: hidden;
-}
 #searchbars {
 	display: inline;
 	float: left;
@@ -215,13 +201,6 @@ a:hover {
 }
 #searchbars input {
 	width: 100%;
-}
-#userinfo_username,#userinfo_major,#userinfo_minor {
-	float: left;
-	width: 120px;
-}
-#userinfo_username li,#userinfo_major li,#userinfo_minor li {
-	font-size: 11px;
 }
 #alerts {
 	position: absolute;
