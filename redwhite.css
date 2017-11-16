@@ -143,23 +143,18 @@ a:hover {
 	color: #000;
 }
 #logo {
-	display: inline;
+	width: 126px;
+	height: 60px;
+	background: url('https://www.deepbassnine.com/static/styles/goatpower/images/logo.png') no-repeat center center;
 	float: left;
-	margin-right: 50px;
-	width: 270px;
-	margin-top: 80px;
+	margin: 20px 10px 0 0;
 }
-* html #logo {
-	overflow-x: hidden;
-}
+
 #logo a {
-	background: url('400') no-repeat;
+	border: none;
+	width: 100%;
+	height: 70px;
 	display: block;
-	height: 50px;
-	width: 270px;
-}
-#logo a:active,#logo a:focus {
-	outline: 0;
 }
 #userinfo {
 	display: inline;
@@ -897,14 +892,14 @@ div[class~=tooltipster-base] {
 #content {
 	width: 85%;
 	min-width:740px;
-	background: url('images/pattern.png');
+	background: url('https://www.deepbassnine.com/static/styles/goatpower/images/pattern.png');
 	margin: -33px auto 0px auto;
 	padding: 0;
 }
 
 #content:before {
-	content:url('images/shadowside-left.png');
-	background: url('images/shadowside-right.png') no-repeat top right;
+	content:url('https://www.deepbassnine.com/static/styles/goatpower/images/shadowside-left.png');
+	background: url('https://www.deepbassnine.com/static/styles/goatpower/images/shadowside-right.png') no-repeat top right;
 	display: block;
 	height: 70px;
 	margin-left: -20px;
@@ -913,7 +908,7 @@ div[class~=tooltipster-base] {
 }
 
 #content_wrapper {
-	background: url('images/colorbanner.png') repeat-x top;
+	background: url('https://www.deepbassnine.com/static/styles/goatpower/images/colorbanner.png') repeat-x top;
 	width: 100%;
 	margin: -37px auto 0px auto;
 	padding: 37px 0 0 0;
@@ -928,20 +923,6 @@ div[class~=tooltipster-base] {
 	font-size: 10px;
 }
 
-#logo {
-	width: 126px;
-	height: 60px;
-	background: url('https://www.deepbassnine.com/static/styles/goatpower/images/logo.png') no-repeat center center;
-	float: left;
-	margin: 20px 10px 0 0;
-}
-
-#logo a {
-	border: none;
-	width: 100%;
-	height: 70px;
-	display: block;
-}
 
 /* userinfo start */
 
@@ -1131,7 +1112,7 @@ div[class~=tooltipster-base] {
 }
 
 #freefeed {
-/*	background: url('symbols/freefeed.png');*/
+/*	background: url('https://www.deepbassnine.com/static/styles/goatpower/symbols/freefeed.png');*/
 	position: absolute;
 	height: 40px;
 	width: 40px;
@@ -1174,7 +1155,7 @@ div[class~=tooltipster-base] {
 }
 
 #invite_reminder span {
-	background: url('symbols/invites_hover.png') no-repeat center center;
+	background: url('https://www.deepbassnine.com/static/styles/goatpower/symbols/invites_hover.png') no-repeat center center;
 	z-index: 3;
 	height: 16px;
 	width: 22px;
