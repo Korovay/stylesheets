@@ -873,3 +873,110 @@ div[class~=tooltipster-base] {
 
 
 
+/* userinfo start */
+
+#welcometext {
+	color: #0081c0;
+	letter-spacing: 0.05em;
+}
+
+#welcomeusername a {
+	color: #FFF;
+	font-weight: bold;
+}
+
+#userinfo {
+	border-bottom: 1px solid #505050;
+	margin: 0 0.1em;
+	padding-top: 24px;
+	margin-left: 140px;
+	margin-right: -16.62%;
+	/* text-shadow: #000 2px 2px 2px; */
+	font-size: 12px;
+	letter-spacing: 0.05em;
+}
+
+#userinfo a:hover {
+	color:#FFF;
+}
+
+#userinfo ul li {
+	position: relative;
+	display: inline;
+	padding: 0px;
+/*	font-size: 8pt;*/
+	/* z-index: 2; */
+}
+
+#userinfo_username {
+	display: inline-block;
+	text-transform: uppercase;
+	margin-left: 5px;
+	font-size: 10px;
+}
+
+#userinfo_username a {
+	color: #c5c5c5;
+}
+
+#userinfo_username li {
+	margin: 0 0.1em;
+	z-index: 2;
+}
+
+#userinfo_username li:before {
+	content: "В»";
+}
+
+#invite_count {
+	position: relative;
+	left: -5px;
+	padding: 0px;
+	margin: 0px -5px 0px 0px;
+	bottom: 5px;
+}
+
+#userinfo_stats {
+	color: #777;
+	text-transform: uppercase;
+	position: absolute;
+	display: inline;
+	right: 7.5%;
+	top: 26px;
+	padding: 0px;
+	font-size: 10px;
+	letter-spacing: 0;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1150px)  {
+	#userinfo_stats {
+		display: none !important;
+	}
+}
+
+#userinfo_stats li {
+	margin: 0;
+}
+
+#userinfo_stats li:before {
+	content: " ";
+}
+
+#userinfo_stats li a {
+	color: #c5c5c5;
+}
+
+#userinfo_stats a:hover {
+	color:#FFF;
+}
+
+#menu {
+	/* height: 24px; */
+	text-align: left;
+	font-size: 12pt;
+	/* margin: 2px 0px 0px 0px; */
+/*	letter-spacing: 0.1em;*/
+	text-transform: uppercase;
+/*	font-weight: bold;*/
+	margin-left: 140px;
+}
