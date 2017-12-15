@@ -145,18 +145,18 @@ a:hover {
 #logo {
 	display: inline;
 	float: left;
-	margin-right: 40px;
-	width: 158px;
+	margin-right: 50px;
+	width: 200px;
 	margin-top: 91px;
 }
 * html #logo {
 	overflow-x: hidden;
 }
 #logo a {
-	background: url('https://i.imgur.com/ByNS3sH.png') no-repeat;
+	background: url('https://raw.githubusercontent.com/WhatCD/Gazelle/master/static/styles/white.cd/images/logo.png') no-repeat;
 	display: block;
-	height: 32px;
-	width: 97px;
+	height: 50px;
+	width: 200px;
 }
 #logo a:active,#logo a:focus {
 	outline: 0;
